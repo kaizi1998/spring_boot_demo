@@ -1,0 +1,13 @@
+{
+    "name": "ubuntu-jdk17",
+    "image": "ubuntu-jdk17:latest",
+    "appPort": [3000],
+    "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [],
+    "forwardPorts": [3000],
+    "postCreateCommand": "",
+    "remoteUser": "node"
+  }
+  
